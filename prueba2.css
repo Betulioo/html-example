@@ -1,0 +1,47 @@
+body{
+    width: 100vw;
+    height: 100vh;  
+}
+.b-main{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.b-barra{
+    width: 50%;
+    height: 15%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+
+}
+
+.b-carga{
+    /* width: 0%; */
+    height: 50%;
+    background-color: green;
+    animation: anima-carga 6s infinite ease;
+}
+.b-carga--position{
+    margin: 25% 5%;
+}
+.b-barra--center{
+
+position: relative;
+left: 25%;
+top:25%;
+}
+
+@keyframes anima-carga {
+    0% { width: 0%; }
+    10% { width: 10%; }
+    20% { width: 20%; }
+    30%{ width: 30%; }
+    40% { width: 40%; }
+    50% { width: 50%; }
+    60% { width: 60%; }
+    70% { width: 70%; }
+    80% { width: 75%; }
+    90% { width: 79%; }
+    100% { width: 80%; }
+  }

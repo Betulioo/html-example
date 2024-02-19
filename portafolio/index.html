@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Aquí puedes agregar estilos CSS si lo deseas */
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div>
+         <img src="logo.png" alt="Logo de la empresa" />
+      </div>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio">
+      <h1>Bienvenidos</h1>
+      <p>A mi página Web</p>
+    </section>
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <p><strong>Nombre:</strong> Juan Pérez</p>
+      <p><strong>Profesión:</strong> Desarrollador Web</p>
+      <p><strong>Experiencia:</strong> 5 años</p>
+    </section>
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <article>
+          <h3>Proyecto 1</h3>
+          <p><strong>Descripción:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p><strong>Tecnologías utilizadas:</strong> HTML, CSS, JavaScript</p>
+      </article>
+      <article>
+          <h3>Proyecto 2</h3>
+          <p><strong>Descripción:</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p><strong>Tecnologías utilizadas:</strong> Python, Django</p>
+      </article>
+    </section>
+    <aside>
+      <h2>Información Adicional</h2>
+      <p>Puedes encontrarme en:</p>
+      <ul>
+        <li>LinkedIn</li>
+        <li>GitHub</li>
+        <li>Twitter</li>
+      </ul>
+    </aside>
+  </main>
+  <footer id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </footer>
+</body>
+</html>

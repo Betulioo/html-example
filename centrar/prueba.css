@@ -1,0 +1,94 @@
+.b-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.b-div{
+    width: 33%;
+    height: 30%;
+    background-color: aqua;
+    border: 1px solid black;
+    
+}
+.b-div--padding{
+    padding-top: 1%;
+}
+.b-div--relative{
+    position: relative;
+}
+.b-div--absolute{
+    position: absolute;
+}
+.b-div--flex{
+    display: flex;
+}
+.b-div--center{
+    align-items: center;
+    justify-content: center;
+}
+.b-div--inlineBlock{
+    display: inline-block;
+}
+.b-div--alignCenter{
+    text-align: center;
+
+}
+.b-div--grid{
+    display: grid;
+    place-items: center;
+}
+.b-div--positionCenter{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.b-div--large{
+    height: 65%;
+}
+.b-div--wide{
+    width: 45%;
+}
+.b-div__element1{
+border: 1px solid white;
+width: 50%;
+height: 50%;
+position: relative;
+left: 25%;
+top:25%;
+background-color: yellowgreen;
+
+}
+
+.b-div__element2{
+border: 1px solid white;
+width: 50%;
+height: 50%;
+background-color: rgba(121, 168, 28, 0.653);
+
+
+}
+
+.b-div__element3{
+    border: 1px solid white;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(96, 142, 3);
+}
+
+.b-div__element4{
+    border: 1px solid white;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(45, 60, 15);
+}
+.b-div__element4--center{
+    top: 25%;
+    left: 25%;
+}
+
+.b-div__element5{
+    border: 1px solid white;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(183, 208, 132);
+}
