@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'windyear';
+    src: url(./assets/font/Windyear.ttf);
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.b-header{
+    display: flex;
+    width: 100vw;
+    height: 11%;
+    background-color: #be8f65;
+}
+.b-navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:2px solid gold;
+}
+.b-header__img{
+    max-width: 130px;
+}
+.b-header__ul{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.b-header__a{
+
+    padding: 3% 3% 3% 3%;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #4F601B;
+    font-weight: 700;
+    
+}
+
+.b-header__a:hover{
+    text-decoration: underline;
+}
+
+.b-descubre{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/restaurante.jpg);
+    background-size:cover;
+    background-position: center;
+    margin: 0;
+}
+
+.b-descubre__div{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.512);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.b-descubre__div {
+    color: white;
+    margin: 0;
+}
+.--font{
+    font-family: 'windyear';
+}
+
+.--size{
+    font-size: 6rem;
+}
+
+.b-sectionConcept{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/hojas.jpg);
+    background-size:cover;
+    background-position: center;
+    border-top: 3px solid rgb(5, 84, 5);
+    margin: 0;
+}
+.b-sectionConcept__article{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 22, 27, 0.644);
+
+    padding: 0;
+}
+.b-wrapper{
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.b-wrapper--color{
+    color: black;
+    font-size: 2rem;
+}
+.b-wrapper--galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgba(25, 27, 29, 0.689);
+    padding-top: 45px;
+}
+.b-galeria{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/restaurante8.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.b-galeria__img{
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+
+}
+.b-galeria__img:hover{
+    transform: scale(1.2);
+
+}
+h2,h1,h4,h3{
+    margin: 0;
+}
+.b--white{
+    color: white;
+}
+h2:hover,h1:hover,h4:hover,h3:hover{
+    transform: scale(1) rotate(25deg);
+    
+}
+h1{
+    border-bottom: 2px solid silver;
+}
+
+.b-carta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.b-wrapper--row{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.b-carta__h3::before, .b-carta__h3::after{
+    content: " --------------------- ";
+}
+
+.b-carta__wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}

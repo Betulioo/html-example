@@ -22,6 +22,13 @@ body{
     background-color: green;
     animation: anima-carga 6s infinite ease;
 }
+.b-icon{
+    position: absolute;
+    right: 8%;
+    font-size: 50px;
+    color: rgb(52, 51, 51);
+    animation: check 6s infinite ease;
+}
 .b-carga--position{
     margin: 25% 5%;
 }
@@ -31,17 +38,13 @@ position: relative;
 left: 25%;
 top:25%;
 }
+@keyframes check {
+    from {color: rgb(52, 51, 51) }
+    to {color: green;}
+}
 
 @keyframes anima-carga {
-    0% { width: 0%; }
-    10% { width: 10%; }
-    20% { width: 20%; }
-    30%{ width: 30%; }
-    40% { width: 40%; }
-    50% { width: 50%; }
-    60% { width: 60%; }
-    70% { width: 70%; }
-    80% { width: 75%; }
-    90% { width: 79%; }
-    100% { width: 80%; }
+    from { width: 0%; }
+
+    to { width: 80%; }
   }
